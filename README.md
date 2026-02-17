@@ -1,4 +1,4 @@
-# Zeyuz35 Mosek
+# mosek
 
 ## How do I install these formulae?
 
