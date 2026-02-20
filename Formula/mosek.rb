@@ -15,6 +15,11 @@ class Mosek < Formula
       next if File.directory?(file)
       bin.install_symlink file => File.basename(file)
     end
+    
+    # Link header files to homebrew include directory
+    Dir["#{prefix}/11.1/tools/platform/osxaarch64/h/*.h"].each do |header|
+      include.install_symlink header => File.basename(header)
+    end
   end
 
   def post_install

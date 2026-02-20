@@ -2,8 +2,8 @@ class Copt < Formula
   desc "Cardinal Optimizer - mathematical optimization solver"
   homepage "https://github.com/COPT-Public/COPT-Release"
   url "https://pub.shanshu.ai/download/copt/8.0.3/osx64/CardinalOptimizer-8.0.3-universal_mac.tar.gz"
+  # version "8.0.3"
   sha256 "f340bfde55a7e9e17cbe8be5e8699936eab4232f8565404f92237f47f58bbca5"
-  version "8.0.3"
 
   def install
     # The tarball extracts directly to the build directory

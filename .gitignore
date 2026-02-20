@@ -1,6 +1,9 @@
 # macOS
 .DS_store
 
+# README output
+README.html
+
 # workspaces
 *.code-workspace
 
